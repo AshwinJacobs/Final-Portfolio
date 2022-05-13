@@ -8,7 +8,7 @@
       }
     },
     "color": {
-      "value": "#1e1eb9"
+      "value": "#b91e27"
     },
     "shape": {
       "type": "circle",
@@ -68,7 +68,7 @@
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": false,
@@ -106,5 +106,5 @@
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 }

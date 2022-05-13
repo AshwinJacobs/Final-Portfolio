@@ -9,11 +9,27 @@
 html,body{
   overflow-x: hidden;
 }
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+   justify-content: center;
+    
+}
 
 
- /* #Particlesjs {
+ #particles{
+   position: absolute;
+   top: 0;
+   bottom:0;
+   left: 0;
+   right: 0;
+ }
   
-   */
+ #Landing{
+   position: relative;
+   background-image: url(./Background.jpg);
+ }
+  
  
  
  .btn.-tool{
@@ -80,7 +96,7 @@ a {
 
 .navbar {
   opacity: 80%;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   height: 100px;
@@ -197,7 +213,6 @@ a {
   margin-left: -95px;
 }
 .about-me {
-  width: 20vw;
   height: 55vh;
   margin-left: 10vw;
   border-radius: 10%;
@@ -824,4 +839,13 @@ section:nth-of-type(even) {
   font-size: 13px;
   color: #aaa;
   margin-bottom: 0;
+}
+@media screen and  {max-width: 1400px){
+  #About .about-me img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+};
+  
 }

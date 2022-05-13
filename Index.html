@@ -15,53 +15,8 @@
     <title>Ashwin Portfolio</title>
   </head>
   <body>
-    <!-- navigation -->
-    <!-- <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/Index.html"
-          ><img class="img-fluid" src="./small logo.png" alt=""
-        /></a>
-        <button
-          class=" navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav fs-3">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-primary"
-                aria-current="page"
-                href="Landing"
-                >Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-danger" href="About">About</a>
-            </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-success" href="Project">Project </a>
-            </li>
-          <li class="nav-item">
-              <a class="nav-link text-danger" href="Testimonial"
-                >Testimonial
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-primary" href="Contact">Contact </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-    <!-- End of navigation -->
-
+    
+<!-- navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="./small logo.png" alt=""></a>
@@ -87,22 +42,20 @@
          <li class="nav-item">
           <a class="nav-link text-danger" href="#Contact">Contact</a>
         </li>
-        <li class=" text-primary fs-3 mx-1 px-5 fa-brands fa-linkedin"></li>
-  <li class="nav-icon text-primary fs-3 mx-1 px-5 fa-brands fa-github-square"></li>
       </ul>
       	<div class="animation start-home-1"></div>
     </div>
   </div>
-</nav>
+</nav> 
+<!-- End of navigation -->
+
     <!-- Sections -->
 
     <!-- Landing Page -->
-    <section id="Landing"> 
-       <div id="particular"></div>
-      <div class="container-fluid">
-          <div class="row">
-              <div class="col col-12">
-                  <div class="text-left mx-5  px-5 text-white">
+    <section id="Landing"> <div id="particles"></div>
+      <div class="container-fluid"> 
+         <div class="row">
+                  <div class=" mx-5 my-5 py-5 px-5 text-white">
                   <span class="heading">Welcome</span> 
                     <h1 >I'm Ashwin Jacobs</h1>
                     <span></span>
@@ -142,15 +95,15 @@
 </nav>
 <div class="tab-content " id="nav-tabContent">
   <div class="tab-pane fade show active mt-5 d-flex justify-content-between" id="nav-Skills" role="tabpanel" aria-labelledby="nav-Skills-tab">
-    <button type="button" class="btn text-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+    <button type="button" class="btn text-success" data-toggle="tooltip" data-placement="top" title="HTML5">
      HTML5<i class=" text-success fa-brands fa-html5"></i></button>
-     <button type="button" class="btn text-danger" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+     <button type="button" class="btn text-danger" data-toggle="tooltip" data-placement="top" title="CSS">
     CSS <i class=" text-danger fa-brands fa-css3-alt"></i></button>
-      <button type="button" class="btn -tool" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+      <button type="button" class="btn -tool" data-toggle="tooltip" data-placement="top" title="Bootstrap">
         Bootstrap<i class="fa-brands fa-bootstrap"></i></button>
-        <button type="button" class="btn text-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        <button type="button" class="btn text-primary" data-toggle="tooltip" data-placement="top" title="Github">
           GitHub<i class="fa-brands fa-github-square"></i></button>
-          <button type="button" class="btn text-white" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+          <button type="button" class="btn text-white" data-toggle="tooltip" data-placement="top" title="JavaScript">
             JavaScript<i class=" text-light fa-brands fa-js"></i></button>
        
      </div>
@@ -166,7 +119,7 @@
 
 </div>
   <div class="tab-pane fade" id="nav-Experience" role="tabpanel" aria-labelledby="nav-Experience-tab"> 
-   2017<li>Matric- After completing my Matric I've worked casually at a home based car garage working spacifically on Honda    </li>
+   2017<li>Matric- After completing my Matric I've worked casually at a home based car garage working specifically on Honda    </li>
   2018-2019<li>IT Essentials- Started working on computers and laptops. Providing a service for private clients   </li>
   2018-2020<li>CCNA CCNP- Working on routers and switches, got to learn about cyber-ops and loved it. My online platforms are highly secured.  </li></div>
 
@@ -321,7 +274,7 @@
   <div class="container-fluid  box">
     <span></span>
     <div class="content">
-      <h2>Claculator</h2>
+      <h2>Calculator</h2>
       <p><img class="project-1" src="./Calculator.PNG"></p>
       <a class="d-flex justify-content-center" href="https://github.com/AshwinJacobs/Calculator" target="_blank">GitHub</a>
       <a class="d-flex justify-content-center" href="https://app.netlify.com/sites/jazzy-palmier-d11827/overview" target="_blank">Netlify</a>
@@ -399,7 +352,7 @@
     <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
       /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-      particlesJS.load("particular", "particles.json", function () {
+      particlesJS.load("particles", "particlesjs-config.json", function () {
         console.log("callback - particles.js config loaded");
       });
     </script>
