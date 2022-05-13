@@ -61,13 +61,38 @@
       </div>
     </nav> -->
     <!-- End of navigation -->
-<nav>
-	<a href="#">Home</a>
-	<a href="#">About</a>
-	<a href="#">Blog</a>
-	<a href="#">Portefolio</a>
-	<a href="#">Contact</a>
-	<div class="animation start-home-1"></div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./small logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+       
+      <ul class="navbar-nav">
+       
+        <li class="nav-item">
+          <a class="nav-link active text-danger" aria-current="page" href="#Landing">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning " href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#Testimonial">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-success" href="#Project">Project</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-danger" href="#Contact">Contact</a>
+        </li>
+        <li class=" text-primary fs-3 mx-1 px-5 fa-brands fa-linkedin"></li>
+  <li class="nav-icon text-primary fs-3 mx-1 px-5 fa-brands fa-github-square"></li>
+      </ul>
+      	<div class="animation start-home-1"></div>
+    </div>
+  </div>
 </nav>
     <!-- Sections -->
 
@@ -99,7 +124,7 @@
 
     <section id="About">
      <div class="row container-fluid col-lg-0 py-1">
-  <div class="col-lg-6 py-5"><img class=" img-fluid about-me " src="./Ashwin.JPG" alt=""></div>
+  <div class="col-lg-6 py-5"><img class="about-me " src="./Ashwin.JPG" alt=""></div>
   <div class="col-lg-5 text-primary fs-5 "><h2>About Me</h2>
   <div class="row">
     <div class=" col-md-5 col-lg-6 py-5 px-1">I am hardworking and work well in a team. I am time conscious and willing to learn new things. I find a way of comfort when working with new people and adapting to a new environment. I have good interpersonal skills and enjoy talking about new technology in the market, new smartphones, laptops and desktops.
@@ -117,11 +142,17 @@
 </nav>
 <div class="tab-content " id="nav-tabContent">
   <div class="tab-pane fade show active mt-5 d-flex justify-content-between" id="nav-Skills" role="tabpanel" aria-labelledby="nav-Skills-tab">
-      <i class=" text-success fa-brands fa-html5"></i>
-       <i class=" text-danger fa-brands fa-css3-alt"></i>
-     <i class="fa-brands fa-bootstrap"></i>
-      <i class="fa-brands fa-github-square"></i>
-       <i class=" text-light fa-brands fa-js"></i>
+    <button type="button" class="btn text-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+     HTML5<i class=" text-success fa-brands fa-html5"></i></button>
+     <button type="button" class="btn text-danger" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+    CSS <i class=" text-danger fa-brands fa-css3-alt"></i></button>
+      <button type="button" class="btn -tool" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        Bootstrap<i class="fa-brands fa-bootstrap"></i></button>
+        <button type="button" class="btn text-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+          GitHub<i class="fa-brands fa-github-square"></i></button>
+          <button type="button" class="btn text-white" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+            JavaScript<i class=" text-light fa-brands fa-js"></i></button>
+       
      </div>
   <div class="tab-pane fade" id="nav-Awards" role="tabpanel" aria-labelledby="nav-Awards-tab"><ul type="none" class="awards-list">
     2017<li>Matric Certificate  </li>
@@ -137,7 +168,7 @@
   <div class="tab-pane fade" id="nav-Experience" role="tabpanel" aria-labelledby="nav-Experience-tab"> 
    2017<li>Matric- After completing my Matric I've worked casually at a home based car garage working spacifically on Honda    </li>
   2018-2019<li>IT Essentials- Started working on computers and laptops. Providing a service for private clients   </li>
-  2019-2020<li>CCNP  </li></div>
+  2018-2020<li>CCNA CCNP- Working on routers and switches, got to learn about cyber-ops and loved it. My online platforms are highly secured.  </li></div>
 
 </div>
     </div>
@@ -338,13 +369,13 @@
   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="name" required></textarea>
   <label class="text-dark" for="floatingTextarea2">Comments</label>
 </div>
-<input class="testbutton my-5 mx-5  fs-5 border" type="submit" value="Submit">
-<input class="testbutton my-5 mx-5  fs-5 border" type="reset"  value="Reset">
+<input class="testbutton-1 my-5 mx-5 text-white fs-5 border" type="submit" value="Submit">
+<input class="testbutton-1 my-5 mx-5 text-white fs-5 border" type="reset"  value="Reset">
 </div>
 
             </form>
           </div>
-          <div class="col-md text-white py-3">
+          <div class="col-md container-fluid text-white py-3">
             <h3 class="py-4 fs-1">Location</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13233.069675818386!2d18.4926986!3d-33.9856643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1652114843958!5m2!1sen!2sza" width="650" height="750" style="border:0;" allowfullscreen="" loading="smooth" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
@@ -352,13 +383,13 @@
   </body>
     <div class="footer-basic">
         <footer>
-            <div class="social"><a href="https://www.linkedin.com/in/ashwin-dean-0956b0199/" target="_blank"><i class=" fa-brands fa-linkedin"></i></a><a href="https://github.com/AshwinJacobs" target="_blank"><i class="fa-brands fa-github-square"></i></a></div>
+            <div class="social"><a class="icons " href="https://www.linkedin.com/in/ashwin-dean-0956b0199/" target="_blank"><i class=" fa-brands fa-linkedin"></i></a><a class="icons" href="https://github.com/AshwinJacobs" target="_blank"><i class="fa-brands fa-github-square"></i></a></div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Testimonial</a></li>
-                <li class="list-inline-item"><a href="#">Project</a></li>
-                <li class="list-inline-item"><a href="#">Contact</a></li>
+                <li class="list-inline-item"><a href="#Home">Home</a></li>
+                <li class="list-inline-item"><a href="#About">About</a></li>
+                <li class="list-inline-item"><a href="#Testimonial">Testimonial</a></li>
+                <li class="list-inline-item"><a href="#Project">Project</a></li>
+                <li class="list-inline-item"><a href="#Contact">Contact</a></li>
             </ul>
             <p class="copyright">Ashwin Jacobs © 2022</p>
         </footer>
